@@ -9,6 +9,9 @@ inputs:
     description: 'Fails on missing values'
     required: false
     default: false
+  cache_packages:
+    required: false
+    default: true
   variables:
     required: false
   data_file:
